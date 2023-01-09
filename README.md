@@ -13,4 +13,4 @@ Projektet indeholder 4 branches som hver i sær skal merges ind i `main`
 7. Hiv `the-js` ind, kig i browseren, kig i "Explorer"
 8. Lav en ny branch
 9. Lav et par commits og push (add, commit, push)
-10. Og merge det så tilbage ind i `main` (huak at stå på main når du merger)
+10. Og merge det så tilbage ind i `main` (husk at stå på `main` når du merger)
