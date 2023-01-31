@@ -1,9 +1,7 @@
 body {
   display: grid;
-  grid-template-columns: minmax(1rem, auto) minmax(auto, 72ch) minmax(
-      1rem,
-      auto
-    );
+  grid-template-columns: minmax(1rem, auto) minmax(auto, 72ch) minmax(1rem, auto);
+  background-color: hotpink;
 }
 body > * {
   grid-column: 2;
