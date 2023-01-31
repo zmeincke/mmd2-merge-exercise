@@ -1,0 +1,35 @@
+body {
+  display: grid;
+  grid-template-columns: minmax(1rem, auto) minmax(auto, 72ch) minmax(
+      1rem,
+      auto
+    );
+}
+body > * {
+  grid-column: 2;
+}
+
+.fullbleed {
+  grid-column: 1/-1;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+nav a {
+  display: block;
+  margin: 0;
+}
+.scroller {
+  overflow-x: scroll;
+  display: flex;
+  gap: 1rem;
+  line-break: strict;
+  font-size: 8rem;
+}
+@media (min-width: 600px) {
+  nav {
+    flex-direction: row;
+  }
+}
